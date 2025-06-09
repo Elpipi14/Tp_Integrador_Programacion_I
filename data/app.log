@@ -1,0 +1,195 @@
+2025-06-09 10:53:02|INFO|[logging_config.py:75|<module>()]:Logger inicializado correctamente.
+2025-06-09 10:53:04|INFO|[main.py:13|<module>()]:Entrenando árbol de decisión...
+2025-06-09 10:53:09|INFO|[main.py:17|<module>()]:Evaluando árbol...
+2025-06-09 10:53:10|INFO|[metricas.py:13|calcular_metricas()]:Precisión global: 75.64%
+2025-06-09 10:53:10|INFO|[metricas.py:14|calcular_metricas()]:Precisión (Pico): 71.60%
+2025-06-09 10:53:10|INFO|[metricas.py:15|calcular_metricas()]:Recall (Pico): 85.00%
+2025-06-09 10:53:10|INFO|[metricas.py:16|calcular_metricas()]:F1-score: 77.73%
+2025-06-09 10:53:10|INFO|[main.py:24|<module>()]:Estructura del árbol:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:if hour <= 6:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:  if channel_type_Prensa <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:    if hour <= 0:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:      if channel_name_mod_otros <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if channel_name_mod_C5N <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:          -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if weekday <= 1:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:      else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if channel_type_Radio <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if weekday <= 2:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if weekday <= 2:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:    else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:      if hour <= 5:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if channel_type_Stream <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if weekday <= 2:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if weekday <= 5:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:      else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if channel_name_mod_Cadena 3 Argentina <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if channel_name_mod_Radio Mitre <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if weekday <= 4:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:  else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:    if weekday <= 3:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:      if hour <= 3:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if hour <= 2:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if weekday <= 0:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if weekday <= 0:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:      else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if weekday <= 2:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 5:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 5:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:    else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:      if weekday <= 5:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if hour <= 3:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if weekday <= 4:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if weekday <= 4:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:      else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if hour <= 4:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 0:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 5:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:  if weekday <= 4:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:    if hour <= 14:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:      if channel_name_mod_otros <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if channel_name_mod_C5N <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 7:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if weekday <= 0:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:      else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if hour <= 8:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 7:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if channel_type_Stream <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:    else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:      if channel_type_TV <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if channel_type_Radio <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 19:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 17:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:      else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if channel_name_mod_C5N <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 22:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if weekday <= 3:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:  else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:    if channel_name_mod_otros <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:      if channel_name_mod_Cadena 3 Argentina <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if channel_name_mod_C5N <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 13:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 19:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:      else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if hour <= 13:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 7:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 22:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:    else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:      if channel_type_Stream <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if channel_type_Prensa <= False:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 7:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 18:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:      else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:        if hour <= 21:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if hour <= 11:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> NO PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:        else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:77|imprimir_arbol()]:          if weekday <= 5:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
+2025-06-09 10:53:10|INFO|[arbol_decision.py:79|imprimir_arbol()]:          else:
+2025-06-09 10:53:10|INFO|[arbol_decision.py:75|imprimir_arbol()]:            -> PICO
