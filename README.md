@@ -17,14 +17,16 @@ Este proyecto tiene como objetivo desarrollar un modelo predictivo utilizando un
 
 ## 📁 Estructura del Proyecto
 
-`main.py`                   | Script principal para ejecutar todo el flujo: carga, entrenamiento y salida. |
-| `modelo_arbol/arbol_decision.py` | Implementación del árbol de decisión desde cero.                              |
-| `preprocessing/`            | Módulos para cargar, limpiar y transformar datos.                           |
-| `data/data.csv`             | Dataset de transmisiones en vivo anonimizadas.                              |
-| `core/config.yaml`          | Configuración general del sistema (rutas, columnas clave, etc.).            |
-| `graficos.py`               | Opcional: generación de visualizaciones.                                    |
-| `README.md`                 | Este archivo.                                                               |
-| `Informe...pdf`             | Informe final del trabajo práctico. 
+| Archivo / Carpeta              | Descripción                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| `main.py`                     | Script principal para ejecutar todo el flujo: carga, entrenamiento y salida. |
+| `modelo_arbol/arbol_decision.py` | Implementación del árbol de decisión desde cero.                           |
+| `preprocessing/`              | Módulos para cargar, limpiar y transformar datos.                           |
+| `data/data.csv`               | Dataset de transmisiones en vivo anonimizadas.                              |
+| `core/config.yaml`            | Configuración general del sistema (rutas, columnas clave, etc.).            |
+| `graficos.py`                 | Opcional: generación de visualizaciones.                                    |
+| `README.md`                   | Este archivo.                                                               |
+| `Informe...pdf`               | Informe final del trabajo práctico.                                         |
 
 ---
 
